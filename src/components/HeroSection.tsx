@@ -5,9 +5,9 @@ import MotionWrapper from "./MotionWrapper";
 
 const bioText = `🚀 With over 10 years of experience in software development, I have always been driven by curiosity and a deep desire to understand how things work. My journey began as a QA Analyst, where I refined my skills in process optimization and quality assurance to ensure high-standard software products.
 
-  As my career evolved, I discovered that my true passion was programming—transforming complex challenges into impactful solutions. Motivated by this realization, I taught myself to code and successfully transitioned from QA Analyst to Developer after passing a competitive recruitment process at Alterdata.
+  As my career progressed, I discovered that my true passion is programming—transforming complex challenges into impactful solutions. Motivated by this realization, I taught myself to code and successfully transitioned from QA Analyst to Developer after passing a competitive recruitment process at Alterdata.
 
-  My professional experience includes automating tax invoice processing, developing advanced tax calculation systems, and creating an automated solution that managed end-to-end procurement and replenishment of raw materials and supplies.
+  My professional experience includes automating tax invoice processing, developing advanced tax calculation systems, and creating an automated solution to manage the end-to-end procurement and replenishment of raw materials and supplies. Additionally, I stay up to date with Canadian tax regulations, ensuring that my solutions comply with current standards and requirements.
 
   Additionally, I stay up to date with Canadian tax regulations, ensuring that my solutions comply with current standards and requirements. I am also continuously expanding my expertise in Python, focusing on Django, API development, and cloud technologies to build scalable and efficient solutions.
 
