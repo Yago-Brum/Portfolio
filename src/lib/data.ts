@@ -36,9 +36,33 @@ export const workExperience = [
 export const education = [
   {
     institution: "Centro Universitário Serra dos Órgãos -  UNIFESO",
-    location: "Teresópolis, Brazil", 
     degree: "Bachelor of Business Administration",
     period: "Jan 2011 - Dec 2015",
+  },
+  {
+    institution: "Linkedin Learning",
+    degree: "C#: Essential Training",
+    period: "Nov 2024",
+  },
+  {
+    institution: "Linkedin Learning",
+    degree: "Learning C#",
+    period: "Nov 2024",
+  },
+  {
+    institution: "Alura",
+    degree: ".NET: Creating a Web API with ASP.NET Core",
+    period: "Jan 2025",
+  },
+  {
+    institution: "Alura",
+    degree: "Learn to program in Python with Object Orientation",
+    period: "Fev 2025",
+  },
+  {
+    institution: "Alura",
+    degree: "Django: templates and best practices",
+    period: "Mar 2025",
   },
 ];
 export const skills = {
