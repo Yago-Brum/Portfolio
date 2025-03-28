@@ -138,19 +138,6 @@ This portfolio is designed to be easily customizable mainly by editing the data 
    ];
    ```
 
-6. **Awards**: Highlight your achievements
-   ```typescript
-   export const awards = [
-     {
-       name: "Award Name",
-       issuer: "Issuer",
-       date: "Date",
-       type: "Type",
-       position: "Position",
-     },
-     // Add more awards
-   ];
-   ```
 
 ## Building for Production
 

@@ -3,7 +3,18 @@ import { Mail, Github, MapPin, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
-export default function HeroSection() {
+const bioText = `🚀 With over 10 years of experience in software development, I have always been driven by curiosity and a deep desire to understand how things work. My journey began as a QA Analyst, where I refined my skills in process optimization and quality assurance to ensure high-standard software products.
+
+  As my career evolved, I discovered that my true passion was programming—transforming complex challenges into impactful solutions. Motivated by this realization, I taught myself to code and successfully transitioned from QA Analyst to Developer after passing a competitive recruitment process at Alterdata.
+
+  My professional experience includes automating tax invoice processing, developing advanced tax calculation systems, and creating an automated solution that managed end-to-end procurement and replenishment of raw materials and supplies.
+
+  Additionally, I stay up to date with Canadian tax regulations, ensuring that my solutions comply with current standards and requirements. I am also continuously expanding my expertise in Python, focusing on Django, API development, and cloud technologies to build scalable and efficient solutions.
+
+  I excel at solving complex problems and delivering innovative, results-driven solutions. I am always eager to connect with forward-thinking professionals, collaborate on challenging projects, and drive impactful results. Let’s create something great together!`;
+
+
+  export default function HeroSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -48,7 +59,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Software Developer 👨‍💻
             </motion.p>
 
             <motion.div
@@ -119,21 +130,15 @@ export default function HeroSection() {
         </motion.div>
 
         <MotionWrapper>
-          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
-              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
-            </p>
-          </div>
-        </MotionWrapper>
+        <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
+          {/* Mantenha a classe whitespace-pre-wrap aqui */}
+          <p className="text-muted-foreground pl-4 py-2 mb-4 relative whitespace-pre-wrap">
+            <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
+            {/* Renderize a variável bioText aqui */}
+            {bioText}
+          </p>
+        </div>
+      </MotionWrapper>
       </div>
     </section>
   );
