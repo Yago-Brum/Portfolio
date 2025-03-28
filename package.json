@@ -3,11 +3,11 @@
   "type": "module",
   "version": "0.0.1",
   "description": "Modern portfolio template with animations and glassmorphism effects",
-  "author": "Rishikesh S",
+  "author": "Yago Brum",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rishikesh2003/my-portfolio"
+    "url": "https://github.com/Yago-Brum/Portfolio"
   },
   "scripts": {
     "dev": "astro dev",

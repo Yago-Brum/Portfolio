@@ -2,8 +2,6 @@
 
 A sleek, responsive portfolio website built with Astro, React, and Tailwind CSS, featuring modern animations and glassmorphism effects.
 
-![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
-
 ## Features
 
 - ✨ **Modern Design**: Clean, professional layout with glassmorphism effects
@@ -17,7 +15,6 @@ A sleek, responsive portfolio website built with Astro, React, and Tailwind CSS,
 
 ## Demo
 
-[Live Demo](https://rishilol.vercel.app/)
 
 ## Getting Started
 
@@ -169,7 +166,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Copyright
 
-© 2025 Rishikesh S. All rights reserved.
+© 2025 Yago Brum All rights reserved.
 
 This template is designed to be used as a starting point for your personal portfolio. You are free to use it for your own portfolio by simply modifying the `data.ts` file and making any design adjustments. However, please include attribution to the original author when using this template.
 
