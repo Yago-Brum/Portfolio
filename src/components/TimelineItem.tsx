@@ -1,6 +1,7 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
+import { Award } from "lucide-react"; // Importe o ícone
 
 interface TimelineItemProps {
   title: string;
@@ -9,6 +10,7 @@ interface TimelineItemProps {
   isLast?: boolean;
   index?: number;
   children?: React.ReactNode;
+  showIcon?: boolean; // Adicione o prop showIcon
 }
 
 export default function TimelineItem({
@@ -18,6 +20,7 @@ export default function TimelineItem({
   isLast = false,
   index = 0,
   children,
+  showIcon = false, // Defina o valor padrão como false
 }: TimelineItemProps) {
   return (
     <motion.div
@@ -29,7 +32,7 @@ export default function TimelineItem({
     >
       <div className="flex flex-col items-center">
         <motion.div
-          className="flex h-[18px] w-[18px] rounded-full border border-purple-500/50 bg-background dark:bg-muted z-10"
+          className="flex h-[18px] w-[18px] rounded-full border border-purple-500/50 bg-background dark:bg-muted z-10 items-center justify-center" // Adicione items-center justify-center
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
           transition={{
@@ -39,7 +42,9 @@ export default function TimelineItem({
             delay: index * 0.2 + 0.2,
           }}
           viewport={{ once: true, margin: "-50px" }}
-        />
+        >
+          {showIcon && <Award className="h-4 w-4 text-purple-500" />} {/* Exiba o ícone se showIcon for true */}
+        </motion.div>
         {!isLast && (
           <motion.div
             className="w-px grow bg-gradient-to-b from-purple-500/50 to-pink-500/30 dark:from-purple-500/30 dark:to-pink-500/10"
